@@ -1,0 +1,26 @@
+_repo: State-of-the-Union-Addresses-of-John-Quincy-Adams_5015
+creator:
+  author:
+    agent_name: Adams, John Quincy
+    birthdate: 1767
+    deathdate: 1848
+    gutenberg_agent_id: '460'
+    url: http://www.gutenberg.org/2009/agents/460
+    wikipedia: http://en.wikipedia.org/wiki/John_Quincy_Adams
+description: ''
+gutenberg_issued: '2004-02-01'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '5015'
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcc 'J'
+- !lcsh 'United States -- Politics and government -- Sources'
+- !lcsh 'Speeches, addresses, etc., American'
+- !lcsh 'Presidents -- United States -- Messages'
+- !lcsh 'Adams, John Quincy, 1767-1848 -- Messages'
+title: State of the Union Addresses of John Quincy Adams
+url: http://www.gutenberg.org/ebooks/5015
