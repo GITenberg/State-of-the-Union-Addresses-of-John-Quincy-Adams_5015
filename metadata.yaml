@@ -1,5 +1,8 @@
 _repo: State-of-the-Union-Addresses-of-John-Quincy-Adams_5015
-_version: 0.1.0
+_version: 0.2.0
+covers:
+- cover_type: generated
+  image_path: cover.png
 creator:
   author:
     agent_name: Adams, John Quincy
@@ -9,6 +12,8 @@ creator:
     url: http://www.gutenberg.org/2009/agents/460
     wikipedia: http://en.wikipedia.org/wiki/John_Quincy_Adams
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/5015#State-of-the-Union-Addresses-of-John-Quincy-Adams
 gutenberg_issued: '2004-02-01'
 gutenberg_type: Text
 identifiers:
