@@ -1,215 +1,215 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:cc="http://web.resource.org/cc/"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:dcam="http://purl.org/dc/dcam/"
 >
   <pgterms:ebook rdf:about="ebooks/5015">
-    <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/460">
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1767</pgterms:birthdate>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/John_Quincy_Adams"/>
-        <pgterms:name>Adams, John Quincy</pgterms:name>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1848</pgterms:deathdate>
-      </pgterms:agent>
-    </dcterms:creator>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/5015/5015.txt">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-11-20T19:03:48</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/5015"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">210987</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/5015/5015-h/5015-h.htm">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-11-20T19:04:00</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N34189664ef0e4e42a640bc675533c37a">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          <rdf:Description rdf:nodeID="N7fc443554bfd4238934e3f930133f7c7">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">216840</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/5015"/>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Ne6e0eabc46e74823a73978aa0b417a1a">
-        <rdf:value>Speeches, addresses, etc., American</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="Nc2df543f9275436892202584844115b7">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
       </rdf:Description>
-    </dcterms:subject>
+    </dcterms:language>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/5015.txt.utf-8">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">210957</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N6bf410db43e741e8a5f3cbebde38bc71">
+          <rdf:Description rdf:nodeID="N8e2e07be07d9491d9200f5c7576ebd75">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-03T03:02:36.439218</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/5015"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">210957</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-03T02:00:26.328286</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:title>State of the Union Addresses of John Quincy Adams</dcterms:title>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="Ne2551657a13d489d897c31845aca9316">
-        <rdf:value>J</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+      <rdf:Description rdf:nodeID="N473894c47eef4b3f80d8d0c0534795ec">
+        <rdf:value>Adams, John Quincy, 1767-1848 -- Messages</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/5015.epub.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-03T02:00:26.627270</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/5015"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-03T03:02:37.222177</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77181</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77192</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nbad3c1bd52f94fff9f8fa048adfa48e7">
+          <rdf:Description rdf:nodeID="N9639597aeaf846299b1c63e664e5688a">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-02-01</dcterms:issued>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/5015/5015-h.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/5015"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73770</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N57219b71049446b8a4bac8e5478818c9">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-11-20T19:07:52</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Naee638a92d9441f0869f1df6ee1b5a89">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/5015.epub.noimages">
+        <dcterms:isFormatOf rdf:resource="ebooks/5015"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77192</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-03T02:00:26.797267</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N6c728bea633548a1960250e1a970f0bd">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/5015/5015.zip">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-11-20T19:07:52</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72450</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N852221254b8f4d4a83b5f6dbd97291f1">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          <rdf:Description rdf:nodeID="N50ec7b3f011f4ace9c8e1bdc14d03c6a">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72450</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/5015"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd484ada6afc54b498ea23183d2a6d3a0">
+          <rdf:Description rdf:nodeID="N6b085035976c42628cb6ee24f4d08ced">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-11-20T19:07:52</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/5015"/>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="N8f3bc0707b534d6f8514014be5c5cdd2">
-        <rdf:value>Text</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/5015.kindle.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">337596</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-03T02:00:27.446245</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/5015"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1d054b99cf984dedbfad9be4723c5cdd">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nd9867723270d4aa091c97a3561f85591">
+        <rdf:value>Speeches, addresses, etc., American</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
       </rdf:Description>
-    </dcterms:type>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-02-01</dcterms:issued>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="Ne78a5d8c354f44018d9fd073eafe9f89">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+    </dcterms:subject>
+    <dcterms:title>State of the Union Addresses of John Quincy Adams</dcterms:title>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N750c3bd7361f4afba280089fe28023b0">
+        <rdf:value>Presidents -- United States -- Messages</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
       </rdf:Description>
-    </dcterms:language>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/5015/5015.txt">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N6f1f58855e0d4a9782fc0579aca1156e">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/5015"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-11-20T19:03:48</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">210987</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/460">
+        <pgterms:name>Adams, John Quincy</pgterms:name>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/John_Quincy_Adams"/>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1767</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1848</pgterms:deathdate>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/5015.kindle.noimages">
+        <dcterms:isFormatOf rdf:resource="ebooks/5015"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">337316</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-03T02:00:28.102240</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ndbe3dfd025274991beb17f420896b235">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N7bf9e0ae5c37413482cd95011e78fa10">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>United States -- Politics and government -- Sources</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/5015.rdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:03:39.970577</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12083</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/5015"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-03T03:02:40.495033</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12068</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc257d1000e604803926fb065f29df2b3">
+          <rdf:Description rdf:nodeID="Nebbbc8e364d546639e6558d9d54f7346">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</pgterms:downloads>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/5015.kindle.noimages">
-        <dcterms:isFormatOf rdf:resource="ebooks/5015"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N6ce879d804744a5995f934b4d3b47238">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-03T03:02:40.282048</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">337301</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N77068f077d3247ccaf7a007e9b319352">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Adams, John Quincy, 1767-1848 -- Messages</rdf:value>
+      <rdf:Description rdf:nodeID="N9665f2c29fd640c1b08a99baa76c7b24">
+        <rdf:value>J</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
       </rdf:Description>
     </dcterms:subject>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/5015/5015-h/5015-h.htm">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">216840</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-11-20T19:04:00</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/5015"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb20102012bb541e4a6d506549adb3fe6">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</pgterms:downloads>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N198d67e03ce043258409f5b41a51fbad">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
     <dcterms:license rdf:resource="license"/>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nea22d8fc36474a428ac6dcd1427f7724">
-        <rdf:value>Presidents -- United States -- Messages</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/5015.epub.noimages">
-        <dcterms:isFormatOf rdf:resource="ebooks/5015"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77181</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N5427fe800c8a4c48b9672d729ae2101b">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-03T03:02:37.596172</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N01eb0b6d4237472c982f890243476659">
-        <rdf:value>United States -- Politics and government -- Sources</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/5015.kindle.images">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">337581</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-03T03:02:39.274096</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/5015"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Na4afde5dfcf24ddd8dc8c67b24a401fe">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/5015/5015-h.zip">
-        <dcterms:isFormatOf rdf:resource="ebooks/5015"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd6d3291700c54d8b9729030298715263">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-11-20T19:07:52</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73770</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb76c05e1b25946bb88bc11b9d15cd9fa">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
     <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
             http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
   </cc:Work>
   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/John_Quincy_Adams">
     <dcterms:description>Wikipedia</dcterms:description>

@@ -1,5 +1,5 @@
 _repo: State-of-the-Union-Addresses-of-John-Quincy-Adams_5015
-_version: 0.2.0
+_version: 0.2.1
 covers:
 - cover_type: generated
   image_path: cover.png
@@ -28,5 +28,6 @@ subjects:
 - !lcsh 'Speeches, addresses, etc., American'
 - !lcsh 'Presidents -- United States -- Messages'
 - !lcsh 'Adams, John Quincy, 1767-1848 -- Messages'
+- GITenberg
 title: State of the Union Addresses of John Quincy Adams
 url: http://www.gutenberg.org/ebooks/5015
